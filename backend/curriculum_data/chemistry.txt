@@ -1,0 +1,43 @@
+@grade 7
+Acids, Bases and Salts | Acids and bases around us; Indicators; Neutralisation; Uses of neutralisation in daily life
+Physical and Chemical Changes | Physical changes; Chemical changes; Rusting and its prevention; Crystallisation
+Elements, Compounds and Mixtures | What is matter made of; Pure substances and mixtures; Separating mixtures
+Fibre to Fabric | Natural and synthetic fibres; Wool and silk; Properties of fabrics
+@grade 8
+Metals and Non-metals | Physical properties; Chemical properties; Reactivity of metals; Uses in daily life
+Coal and Petroleum | Natural resources; Formation of coal and petroleum; Products from fossil fuels; Why conserve fuels
+Combustion and Flame | What is combustion; Types of combustion; Structure of a flame; Fuel efficiency and global warming
+Synthetic Fibres and Plastics | Types of synthetic fibres; Plastics: boon or bane; Biodegradable and non-biodegradable
+Pollution of Air and Water | Air pollution and its causes; Water pollution; Greenhouse effect and ozone; Preventing pollution
+@grade 9
+Matter in Our Surroundings | Physical nature of matter; States of matter; Change of state and latent heat; Evaporation
+Is Matter Around Us Pure | Mixtures and solutions; Concentration of a solution; Suspensions and colloids; Separation techniques; Physical and chemical changes
+Atoms and Molecules | Laws of chemical combination; Dalton's atomic theory; Atomic and molecular mass; Mole concept; Chemical formulae
+Structure of the Atom | Thomson's and Rutherford's models; Bohr's model; Electrons, protons and neutrons; Valency, atomic number, isotopes and isobars
+@grade 10
+Chemical Reactions and Equations | Writing and balancing equations; Types of chemical reactions; Oxidation and reduction; Corrosion and rancidity
+Acids, Bases and Salts | Properties of acids and bases; Strength of acids: the pH scale; Important salts; Salts of daily use
+Metals and Non-metals | Physical and chemical properties; Reactivity series; Ionic compounds; Extraction of metals; Corrosion
+Carbon and its Compounds | Bonding in carbon; Versatile nature of carbon; Homologous series and nomenclature; Chemical properties of carbon compounds; Ethanol, ethanoic acid, soaps and detergents
+Periodic Classification of Elements | Early attempts: Dobereiner, Newlands, Mendeleev; Modern periodic table; Periodic trends
+@grade 11
+Some Basic Concepts of Chemistry | Laws of chemical combination; Mole concept; Stoichiometry; Concentration terms
+Structure of Atom | Atomic models; Quantum numbers; Electronic configuration; Dual nature and uncertainty principle
+Classification of Elements and Periodicity | Modern periodic law; Atomic and ionic radius; Ionisation enthalpy and electron gain enthalpy; Electronegativity
+Chemical Bonding and Molecular Structure | Ionic and covalent bonds; VSEPR theory; Hybridisation; Molecular orbital theory
+Thermodynamics | System and surroundings; Enthalpy and Hess's law; Entropy and Gibbs energy
+Equilibrium | Dynamic equilibrium; Le Chatelier's principle; Ionic equilibrium and pH; Buffers and solubility product
+Redox Reactions | Oxidation number; Balancing redox equations; Electrode processes
+Organic Chemistry: Basic Principles | Nomenclature; Isomerism; Electronic effects; Reaction intermediates
+Hydrocarbons | Alkanes; Alkenes; Alkynes; Aromatic hydrocarbons
+@grade 12
+Solutions | Types of solutions and concentration; Raoult's law; Colligative properties; Abnormal molar mass
+Electrochemistry | Electrochemical cells; Nernst equation; Conductance and Kohlrausch's law; Batteries and corrosion
+Chemical Kinetics | Rate of reaction; Order and molecularity; Integrated rate laws; Arrhenius equation
+d- and f-Block Elements | Transition elements and their properties; Potassium dichromate and permanganate; Lanthanoids and actinoids
+Coordination Compounds | Werner's theory; Nomenclature and isomerism; Bonding: VBT and CFT
+Haloalkanes and Haloarenes | Nomenclature and preparation; SN1 and SN2 reactions; Environmental effects of polyhalogen compounds
+Alcohols, Phenols and Ethers | Preparation of alcohols; Properties and reactions; Phenols; Ethers
+Aldehydes, Ketones and Carboxylic Acids | Nucleophilic addition; Name reactions; Carboxylic acids
+Amines | Classification and preparation; Properties; Diazonium salts
+Biomolecules | Carbohydrates; Proteins and enzymes; Vitamins, nucleic acids and hormones

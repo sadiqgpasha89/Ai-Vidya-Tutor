@@ -1,0 +1,4 @@
+# Private server-side voice: Piper text-to-speech and Whisper speech-to-text (optional; the app works without them)
+piper-tts>=1.3
+faster-whisper>=1.0
+pyopenjtalk-plus

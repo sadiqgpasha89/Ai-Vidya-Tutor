@@ -1,0 +1,29 @@
+# Social Science - History, Geography, Political Science (Civics) and Economics
+@grade 7
+History: Medieval India | Tracing changes over a thousand years; New kings and kingdoms; The Delhi Sultans; The Mughal Empire; Rulers and buildings
+Geography: Our Environment | Environment and its components; Inside the Earth; Our changing earth; Air and water
+Civics: Equality and Government | On equality; The role of government in health; How the state government works
+Economics: Markets | Markets around us; Struggles for equality
+@grade 8
+History: Modern India | From trade to territory; Ruling the countryside; The revolt of 1857; Colonialism and the British; The national movement
+Geography: Resources | Resources; Land, soil and water; Agriculture; Industries; Human resources
+Civics: The Constitution | The Indian Constitution; Understanding secularism; Parliament and making laws; The judiciary
+Economics: Markets and Livelihood | Public facilities; Markets; Law and social justice
+@grade 9
+History: The Modern World | The French Revolution; Socialism and the Russian Revolution; Nazism and the rise of Hitler; Forest society and colonialism
+Geography: India | Size and location of India; Physical features; Drainage; Climate; Natural vegetation and wildlife; Population
+Political Science: Democracy | What is democracy?; Constitutional design; Electoral politics; Working of institutions; Democratic rights
+Economics: The Story of Village Palampur | Palampur village; People as resource; Poverty as a challenge; Food security in India
+@grade 10
+History: The Making of the Modern World | Rise of nationalism in Europe; Nationalism in India; The making of a global world; The age of industrialisation; Print culture
+Geography: Resources and Development | Resources and development; Forest and wildlife; Water resources; Agriculture; Minerals and energy; Manufacturing industries; Lifelines of the economy
+Political Science: Democratic Politics | Power sharing; Federalism; Gender, religion and caste; Political parties; Outcomes of democracy
+Economics: Understanding Economic Development | Development; Sectors of the Indian economy; Money and credit; Globalisation; Consumer rights
+@grade 11
+History | Early societies; Empires; Changing traditions; The Industrial Revolution
+Geography | The Earth and its origin; Landforms and the atmosphere; Water and life on Earth; Human geography basics
+Political Science | The Constitution; Rights and citizenship; Equality and justice; Secularism and nationalism
+@grade 12
+History | Bricks, beads and bones; Kings and chronicles; Colonialism and the countryside; Mahatma Gandhi and the national movement; Partition and independence
+Geography | Human geography; Population and settlements; Resources and economic activities; Transport and trade; Geographical perspective on issues
+Political Science | The Cold War; The end of bipolarity; US hegemony; Regional organisations; Planned development; Politics in India since independence

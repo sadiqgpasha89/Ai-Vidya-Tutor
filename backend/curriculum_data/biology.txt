@@ -1,0 +1,49 @@
+@grade 7
+Nutrition in Plants | Modes of nutrition; Photosynthesis; Other ways plants get food; Soil replenishment
+Nutrition in Animals | Human digestive system; Digestion step by step; Feeding in other animals; Digestion in grass-eating animals
+Respiration in Organisms | Why do we respire; Breathing and the breathing rate; Aerobic and anaerobic respiration; Respiration in plants
+Transportation in Animals and Plants | Blood and blood vessels; The heart; Excretion; Transport of water and food in plants
+Reproduction in Plants | Asexual reproduction; Sexual reproduction: flower parts; Pollination and fertilisation; Seed and fruit dispersal
+Forests: Our Lifeline | Forest as an ecosystem; Layers of a forest; Food chain in a forest; Why forests matter
+@grade 8
+Crop Production and Management | Kharif and rabi crops; Preparing soil and sowing; Manure, fertilisers and irrigation; Harvesting and storage
+Microorganisms: Friend and Foe | Types of microorganisms; Useful microorganisms; Harmful microorganisms; Food preservation
+Conservation of Plants and Animals | Biodiversity; Endangered species; Wildlife sanctuaries and national parks; Reforestation
+Cell: Structure and Functions | Discovery of the cell; Parts of a cell; Plant cell versus animal cell; Unicellular and multicellular organisms
+Reproduction in Animals | Sexual and asexual reproduction; Fertilisation; Embryo development; Metamorphosis
+Reaching the Age of Adolescence | Puberty and body changes; Hormones; Reproductive health; Nutrition and hygiene in adolescence
+@grade 9
+The Fundamental Unit of Life | What are living organisms made of; Cell membrane and cell wall; Cell organelles; Prokaryotes and eukaryotes
+Tissues | Plant tissues; Animal tissues; Muscular and nervous tissue
+Diversity in Living Organisms | Why classify; Five kingdoms; Plant classification; Animal classification
+Why Do We Fall Ill | Health and disease; Infectious diseases; Means of spread and prevention; Immunisation
+Natural Resources | Air, water and soil; Biogeochemical cycles; Ozone layer and global warming
+Improvement in Food Resources | Improvement in crop yields; Crop protection; Animal husbandry; Fisheries and bee-keeping
+@grade 10
+Life Processes | Nutrition; Respiration; Transportation; Excretion
+Control and Coordination | Nervous system and reflex action; The human brain; Plant hormones; Hormones in animals
+How do Organisms Reproduce | Modes of asexual reproduction; Sexual reproduction in plants; Human reproductive system; Reproductive health
+Heredity and Evolution | Mendel's laws; Sex determination; Evolution and speciation; Evidence of evolution
+Our Environment | Ecosystem and food chains; Ozone depletion; Managing waste; Biological magnification
+@grade 11
+The Living World and Biological Classification | What is living; Taxonomy and nomenclature; Five kingdom classification; Viruses and lichens
+Plant Kingdom and Animal Kingdom | Algae, bryophytes, pteridophytes; Gymnosperms and angiosperms; Non-chordates; Chordates
+Morphology and Anatomy of Flowering Plants | Root, stem and leaf; Flower, fruit and seed; Tissues and tissue systems; Anatomy of dicot and monocot
+Structural Organisation in Animals | Animal tissues; Earthworm, cockroach and frog; Organ systems
+Cell: The Unit of Life | Cell theory and cell types; Cell membrane and organelles; Nucleus and chromosomes
+Biomolecules | Carbohydrates, proteins, lipids; Nucleic acids; Enzymes
+Cell Cycle and Cell Division | Cell cycle; Mitosis; Meiosis
+Photosynthesis and Respiration in Plants | Light reactions; Calvin cycle and C4 plants; Glycolysis and the Krebs cycle; Electron transport and fermentation
+Plant Growth and Development | Growth phases; Plant growth regulators; Photoperiodism and vernalisation
+Human Physiology | Breathing and exchange of gases; Body fluids and circulation; Excretory system; Locomotion and movement; Neural control; Chemical coordination
+@grade 12
+Reproduction in Organisms | Modes of reproduction; Asexual reproduction; Sexual reproduction events
+Sexual Reproduction in Flowering Plants | Flower structure and gametes; Pollination; Double fertilisation; Seed and fruit development
+Human Reproduction and Reproductive Health | Male and female systems; Gametogenesis and menstrual cycle; Fertilisation and pregnancy; Birth control and infertility
+Principles of Inheritance and Variation | Mendelian inheritance; Chromosomal theory and linkage; Sex determination and genetic disorders
+Molecular Basis of Inheritance | DNA structure; Replication; Transcription; Translation and gene regulation
+Evolution | Origin of life; Evidence of evolution; Natural selection and Hardy-Weinberg; Human evolution
+Human Health and Disease | Common diseases; Immunity and vaccination; Cancer, AIDS and drug abuse
+Microbes in Human Welfare | Microbes in food and household; Industrial products; Sewage treatment, biogas and biocontrol
+Biotechnology | Principles and tools of recombinant DNA; Processes: PCR and gel electrophoresis; Applications in agriculture and medicine
+Ecology | Organisms and populations; Ecosystem structure and energy flow; Biodiversity and its conservation

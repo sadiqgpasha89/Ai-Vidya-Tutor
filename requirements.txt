@@ -1,0 +1,8 @@
+# Core (everything except optional voice and push)
+anthropic>=2.3
+fastapi>=0.115
+uvicorn[standard]>=0.30
+pydantic>=2.7
+numpy>=1.26
+sympy>=1.12
+pypdf>=4.0

@@ -1,0 +1,29 @@
+[project]
+name = "vidya"
+version = "2.0.0"
+description = "AIVidya: a voice-enabled AI teacher for Indian students, Grades 7-12"
+requires-python = ">=3.11"
+
+[tool.ruff]
+line-length = 180
+target-version = "py311"
+extend-exclude = [".venv", "frontend/vendor", "data"]
+
+[tool.ruff.lint]
+select = ["E", "F", "B", "I", "UP", "S"]
+ignore = [
+  "E501", "E701", "E702", "E731", "E741",
+  "B008", "B904", "B905", "B007", "B023",
+  "UP037", "UP006", "UP007", "UP035", "UP045",
+  "S101", "S105", "S106", "S108", "S110", "S112", "S311", "S324", "S603", "S607", "S608", "S310", "S314", "S104",
+  "I001",
+]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/*" = ["S", "B", "F841"]
+"scripts/*" = ["S"]
+"backend/sandbox.py" = ["S102", "S307"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

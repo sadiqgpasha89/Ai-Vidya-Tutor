@@ -1,0 +1,21 @@
+# Hand-written Challenge extensions for Class 9-10 science (the AI drafts for these classes went beyond what students can follow).
+# Challenge level only. Same format as the board overlays; edit freely.
+@subject physics
+@grade 9
++ Motion Graphs and Problem Solving | Area under a velocity-time graph; Relative motion in a straight line; Free fall problems; Average speed versus average velocity
++ Equilibrium and Moments | Moment of a force; Centre of mass; Stable and unstable equilibrium; Density and Archimedes' principle problems
+@grade 10
++ Optics Problem Solving | Sign convention for mirrors and lenses; Lenses in contact; Refraction through a prism; Total internal reflection and its uses
++ Circuit Problem Solving | Series-parallel networks; Current and voltage division; Electrical power and energy bills; Fuses and household wiring
+@subject chemistry
+@grade 9
++ Mole Concept Practice | Mole and Avogadro's number; Percentage composition; Empirical formula; Mass and volume relationships
++ Separation Techniques in Depth | Chromatography and Rf values; Fractional distillation; Crystallisation; Testing purity by melting and boiling points
+@grade 10
++ Stoichiometry Problems | Balancing by inspection and by oxidation number; Limiting reagent; Percentage yield; Gas volumes at STP
++ Organic Reasoning | Naming simple carbon compounds; Isomerism basics; Trends in a homologous series; Tests for functional groups
+@subject biology
+@grade 9
++ Cell Biology in Depth | Microscopy and magnification calculations; Osmosis experiments; Organelles and what goes wrong in disease; Stages of cell division
+@grade 10
++ Genetics Problem Solving | Monohybrid crosses and Punnett squares; Test cross; Sex determination; Reading Mendel's data

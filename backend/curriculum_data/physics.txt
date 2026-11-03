@@ -1,0 +1,52 @@
+# Physics - one chapter per line:  Chapter | subtopic; subtopic; ...
+@grade 7
+Heat and Temperature | Hot, cold and temperature; Thermometers and how they work; Conduction; Convection; Radiation; Land and sea breeze
+Motion and Time | Slow and fast: speed; Distance-time graphs; Measuring time; Types of motion
+Electric Current and its Effects | Electric circuits and symbols; Heating effect of current; Magnetic effect of current; Electromagnets and electric bell
+Light | Reflection of light; Images in a plane mirror; Spherical mirrors; Lenses; Splitting of light into colours
+Winds, Storms and Cyclones | Air has pressure; How winds are formed; Thunderstorms and cyclones; Staying safe in a cyclone
+@grade 8
+Force and Pressure | Force and its effects; Contact and non-contact forces; Pressure; Atmospheric pressure
+Friction | Why friction happens; Factors affecting friction; Friction: friend and foe; Increasing and reducing friction
+Sound | How sound is produced; Sound needs a medium; Frequency, amplitude and pitch; Noise, music and pollution
+Light and the Human Eye | Laws of reflection; Multiple reflections and kaleidoscope; Dispersion of light; Structure of the human eye; Caring for eyes and Braille
+Some Natural Phenomena | Lightning and charges; Lightning safety and earthing; Earthquakes
+Stars and the Solar System | The Moon and its phases; Stars and constellations; Planets of the solar system; Artificial satellites
+Chemical Effects of Electric Current | Do liquids conduct electricity?; Electrolysis; Electroplating
+@grade 9
+Motion | Distance and displacement; Speed and velocity; Acceleration; Distance-time and velocity-time graphs; Equations of motion; Uniform circular motion
+Force and Laws of Motion | Balanced and unbalanced forces; Newton's first law and inertia; Momentum; Newton's second law; Newton's third law; Conservation of momentum
+Gravitation | Universal law of gravitation; Free fall and acceleration due to gravity; Mass versus weight; Thrust and pressure; Buoyancy and Archimedes' principle
+Work and Energy | Work done; Kinetic energy; Potential energy; Law of conservation of energy; Power
+Sound | Sound as a wave; Characteristics of sound waves; Speed of sound; Reflection of sound and echo; Ultrasound and SONAR; The human ear
+@grade 10
+Light: Reflection and Refraction | Reflection by spherical mirrors; Mirror formula and magnification; Refraction of light; Refractive index; Lens formula and power of a lens
+Human Eye and the Colourful World | Working of the eye and defects of vision; Refraction through a prism; Dispersion and rainbow; Atmospheric refraction; Scattering of light
+Electricity | Electric current and potential difference; Ohm's law; Factors affecting resistance; Resistors in series and parallel; Heating effect of current; Electric power
+Magnetic Effects of Electric Current | Magnetic field and field lines; Field due to current in a wire and solenoid; Force on a current-carrying conductor; Electric motor; Electromagnetic induction; Domestic electric circuits
+Sources of Energy | Good source of energy; Fossil fuels and thermal power; Hydro, wind and solar energy; Nuclear energy; Environmental consequences
+@grade 11
+Units and Measurement | SI units and dimensions; Dimensional analysis; Significant figures; Errors in measurement
+Motion in a Straight Line | Position, velocity and acceleration; Kinematic equations; Free fall; Relative velocity
+Motion in a Plane | Scalars and vectors; Vector addition and resolution; Projectile motion; Circular motion
+Laws of Motion | Newton's laws; Free body diagrams; Friction; Circular motion dynamics
+Work, Energy and Power | Work-energy theorem; Potential energy and conservation; Power; Collisions
+System of Particles and Rotational Motion | Centre of mass; Torque and angular momentum; Moment of inertia; Rolling motion
+Gravitation | Kepler's laws; Gravitational potential energy; Escape velocity; Satellites
+Mechanical Properties of Solids and Fluids | Stress, strain and Hooke's law; Pressure and Pascal's law; Bernoulli's principle; Viscosity and surface tension
+Thermal Properties and Thermodynamics | Heat capacity and calorimetry; Heat transfer; Laws of thermodynamics; Heat engines and entropy
+Kinetic Theory | Gas laws; Kinetic theory of gases; Degrees of freedom and specific heat; Mean free path
+Oscillations and Waves | Simple harmonic motion; Spring and pendulum; Wave motion; Superposition, standing waves and beats
+@grade 12
+Electric Charges and Fields | Charge and Coulomb's law; Electric field and field lines; Electric flux and Gauss's law; Electric dipole
+Electrostatic Potential and Capacitance | Potential and potential difference; Equipotential surfaces; Capacitors and dielectrics; Energy stored in a capacitor
+Current Electricity | Drift velocity and Ohm's law; Resistivity and temperature; Kirchhoff's rules; Wheatstone bridge, meter bridge, potentiometer
+Moving Charges and Magnetism | Lorentz force; Biot-Savart law and Ampere's law; Force between currents; Moving coil galvanometer
+Magnetism and Matter | Bar magnet and Earth's magnetism; Gauss's law for magnetism; Para, dia and ferromagnetism
+Electromagnetic Induction and Alternating Current | Faraday's and Lenz's laws; Self and mutual induction; AC circuits and resonance; Transformers
+Electromagnetic Waves | Displacement current; The electromagnetic spectrum
+Ray Optics | Reflection and refraction; Total internal reflection; Lenses and the lens maker's formula; Optical instruments
+Wave Optics | Huygens' principle; Interference and Young's experiment; Diffraction; Polarisation
+Dual Nature of Radiation and Matter | Photoelectric effect; Einstein's equation; de Broglie waves
+Atoms and Nuclei | Rutherford and Bohr models; Hydrogen spectrum; Nuclear binding energy; Radioactivity, fission and fusion
+Semiconductor Electronics | Energy bands; p-n junction diode; Rectifier, LED and solar cell; Logic gates

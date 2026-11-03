@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AIVidya – Your AI Teacher</title>
+  <meta name="description" content="A voice-enabled AI teacher for Indian students, Grades 7–12.">
+  <meta name="theme-color" content="#4f46e5">
+  <link rel="manifest" href="/manifest.webmanifest">
+  <link rel="icon" href="/icons/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/icons/icon-192.png">
+  <link rel="stylesheet" href="/vendor/katex/katex.min.css">
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="modulepreload" href="/api.js">
+  <link rel="modulepreload" href="/ui.js">
+  <link rel="modulepreload" href="/i18n.js">
+  <link rel="modulepreload" href="/state.js">
+  <link rel="modulepreload" href="/render.js">
+  <link rel="modulepreload" href="/voice.js">
+  <link rel="modulepreload" href="/auth.js">
+  <link rel="modulepreload" href="/home.js">
+  <link rel="modulepreload" href="/settings.js">
+  <link rel="modulepreload" href="/tour.js">
+  <link rel="modulepreload" href="/menu.js">
+  <link rel="modulepreload" href="/langpicker.js">
+  <link rel="modulepreload" href="/idle.js">
+  <link rel="modulepreload" href="/streak.js">
+  <link rel="modulepreload" href="/emailcode.js">
+  <link rel="modulepreload" href="/lesson.js">
+  <link rel="modulepreload" href="/chat.js">
+  <link rel="modulepreload" href="/assess.js">
+  <link rel="modulepreload" href="/studynotes.js">
+</head>
+<body>
+  <a class="skip" href="#view" id="skip">Skip to content</a>
+  <header class="topbar" id="topbar">
+    <button class="icon-btn menu-btn" id="menu-btn" aria-label="Menu" aria-expanded="false" aria-controls="drawer" title="Menu" hidden><span class="burger" aria-hidden="true"></span></button>
+    <a class="brand" href="#/" aria-label="AIVidya home"><span class="brand-mark" aria-hidden="true">🎓</span><span class="brand-name">AIVidya</span></a>
+    <form class="search" id="search-form" role="search" hidden>
+      <input id="search-input" type="search" placeholder="Search any topic…" aria-label="Search topics" autocomplete="off">
+    </form>
+    <span class="spacer"></span>
+    <div class="top-actions" id="top-actions">
+      <button type="button" class="chip streak" id="streak" hidden title="Your daily study streak: days in a row you studied" aria-label="Your daily study streak: days in a row you studied">🔥 <b>0</b></button>
+      <span class="health" id="health" role="img" aria-label="Teacher status" title="Teacher status" hidden></span>
+      <button class="icon-btn" id="bell" aria-label="Notifications" title="Notifications" hidden>🔔<span class="count" id="bell-count" hidden>0</span></button>
+      <div class="lang-wrap"><button class="chip lang-btn" id="lang-btn" aria-haspopup="listbox" aria-expanded="false" aria-controls="lang-panel" aria-label="Language" title="Language"><span aria-hidden="true">🌐</span> <span id="lang-label">English</span> <span aria-hidden="true" class="caret">▾</span></button>
+        <div class="lang-panel" id="lang-panel" role="listbox" aria-label="Language" hidden></div></div>
+      <button class="icon-btn" id="settings-btn" aria-label="Settings" title="Settings" hidden>⚙️</button>
+    </div>
+  </header>
+  <div class="drawer-overlay" id="drawer-overlay" hidden></div>
+  <nav class="drawer" id="drawer" aria-label="Main menu" hidden></nav>
+  <div class="offline-bar" id="offline" hidden role="status">You are offline. Lessons you opened before still work.</div>
+
+  <main id="view" tabindex="-1"></main>
+
+  <div class="caption-bar" id="caption" hidden aria-live="polite">
+    <span class="caption-icon" aria-hidden="true">🔊</span><span id="caption-text"></span>
+    <button class="icon-btn small" id="caption-stop" aria-label="Stop speaking">⏹</button>
+  </div>
+  <footer class="site-footer" id="footer"><span>AI can make mistakes — check with your teacher or textbook.</span> · <a href="#/legal/privacy">Privacy</a> · <a href="#/legal/terms">Terms</a></footer>
+
+  <div id="modal-root"></div>
+  <div id="toast-root" aria-live="polite"></div>
+
+  <script src="/vendor/marked.min.js"></script>
+  <script src="/vendor/purify.min.js"></script>
+  <script src="/vendor/katex/katex.min.js"></script>
+  <script type="module" src="/app.js"></script>
+</body>
+</html>

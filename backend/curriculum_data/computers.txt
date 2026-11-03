@@ -1,0 +1,59 @@
+@grade 7
+Computer Basics | What is a computer; Hardware and software; Input and output devices; Memory and storage
+Operating Systems and Files | What an operating system does; Files and folders; Using a GUI
+The Internet and Safe Browsing | How the internet works; Searching the web; Cyber safety and netiquette
+Office Tools | Word processing; Spreadsheets; Presentations
+Algorithms and Flowcharts | What is an algorithm; Flowchart symbols; Solving everyday problems step by step
+Programming with Scratch | Blocks, sprites and events; Loops and conditions; Making a simple game
+@grade 8
+Computer Networks | Types of networks; Network devices; Network topologies; Wi-Fi and Bluetooth
+Introduction to Python | What is programming; Variables and data types; Input and output; Operators
+Decisions and Loops in Python | if, elif, else; for loops; while loops
+Web Pages with HTML | Structure of a web page; Text, images and links; Lists and tables
+Spreadsheets and Data | Cell references and formulas; Functions; Charts
+Cyber Security Basics | Passwords and phishing; Malware and antivirus; Digital footprint and privacy
+@grade 9
+Computational Thinking | Decomposition; Pattern recognition; Abstraction; Algorithms
+Number Systems and Logic | Binary, octal, hexadecimal; Converting number systems; Boolean logic and gates
+Python Fundamentals | Variables, types and operators; Conditionals; Loops
+Strings, Lists and Dictionaries in Python | Strings; Lists; Tuples and dictionaries
+Web Basics: HTML and CSS | HTML structure; CSS styling; Responsive layout basics
+Cyber Ethics and Safety | Digital citizenship; Cyberbullying and cybercrime; Intellectual property and licences
+Introduction to Artificial Intelligence | What is AI; How machines learn; AI ethics and bias
+@grade 10
+Functions in Python | Defining functions; Arguments and return values; Scope of variables
+Working with Data in Python | Lists and list methods; Dictionaries; File handling basics
+Databases and SQL | What is a database; Tables, keys and records; Basic SQL: SELECT, WHERE; INSERT, UPDATE, DELETE
+Computer Networks and the Web | IP addresses and DNS; Client-server model; Web servers and browsers
+Emerging Technologies | Machine learning; Internet of Things; Cloud computing; Blockchain basics
+Cyber Safety and Ethics | Online threats; Data protection and the IT Act; Responsible use of AI
+@grade 11
+@track CS
+Computer System | Components of a computer system; Number systems and encoding (ASCII, Unicode); Boolean algebra; Types of software
+Python Basics | Tokens, variables and data types; Operators and expressions; Debugging and errors
+Flow of Control | Conditional statements; Iteration; Nested loops and patterns
+Functions | User-defined functions; Parameters and return; Scope and modules
+Strings and Lists | String operations; List operations; Lists as a data structure
+Tuples and Dictionaries | Tuples; Dictionaries; Sorting and searching
+Societal Impacts of Computing | Digital footprint and privacy; Intellectual property; E-waste and health concerns
+@track IP
+Introduction to Computer Systems | Hardware, software and operating systems; Number systems and encoding; Boolean logic
+Python for Data Work | Python basics for data; Lists, tuples and dictionaries; Functions and modules
+Data Handling using NumPy | Arrays; Operations on arrays; Statistics with NumPy
+Databases and SQL | Relational databases and keys; SQL queries; Aggregate functions and GROUP BY
+Societal Impacts | Digital footprint and ethics; Intellectual property; E-waste and cyber law
+@grade 12
+@track CS
+Python Revision and Exception Handling | Functions revisited; Exceptions; Recursion
+File Handling | Text files; Binary files and pickle; CSV files
+Data Structures: Stack | Stack and its operations; Implementing a stack with lists; Applications of stacks
+Computer Networks | Network types and devices; Protocols (TCP/IP, HTTP); Network security
+Database Management with SQL | Relational model and keys; DDL and DML commands; Joins and aggregate functions
+Interface Python with MySQL | Connecting to a database; Executing queries; Fetching results
+
+@track IP
+Data Handling using Pandas | Series and DataFrames; Selecting, filtering and sorting; Aggregation and missing data; Importing and exporting CSV
+Data Visualisation with Matplotlib | Line and bar charts; Histograms and pie charts; Customising plots
+Database Queries using SQL | Joins; Grouping and aggregates; Subqueries and views
+Computer Networks | Network types and topologies; Protocols and the web; Network security
+Societal Impacts | Digital citizenship; Cyber crime and the IT Act; AI ethics

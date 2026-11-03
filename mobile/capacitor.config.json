@@ -1,0 +1,8 @@
+{
+  "appId": "in.vidya.teacher",
+  "appName": "AIVidya",
+  "webDir": "www",
+  "server": { "url": "https://CHANGE-ME.example.com", "cleartext": false, "androidScheme": "https" },
+  "android": { "allowMixedContent": false },
+  "plugins": { "SplashScreen": { "launchShowDuration": 800, "backgroundColor": "#4338ca" } }
+}

@@ -1,0 +1,6 @@
+-r requirements.txt
+pytest>=8
+httpx>=0.27
+ruff>=0.5
+pillow>=10        # only to regenerate icons
+pywebpush>=2.0    # optional: web-push notifications

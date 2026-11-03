@@ -1,0 +1,27 @@
+# One command: `docker compose up -d`, then `docker compose exec ollama ollama pull gemma4:e4b (and gpt-oss:20b)`
+# For a GPU, uncomment the "deploy" block (needs the NVIDIA container toolkit).
+services:
+  ollama:
+    image: ollama/ollama:latest
+    restart: unless-stopped
+    volumes: [ollama:/root/.ollama]
+    # deploy:
+    #   resources:
+    #     reservations:
+    #       devices: [{driver: nvidia, count: all, capabilities: [gpu]}]
+  vidya:
+    build: .
+    restart: unless-stopped
+    depends_on: [ollama]
+    ports: ["8000:8000"]
+    env_file: [{path: .env, required: false}]
+    environment:
+      OLLAMA_HOST: http://ollama:11434
+      TEACHER_PROVIDER: ${TEACHER_PROVIDER:-ollama}
+      TEACHER_COOKIE_SECURE: ${TEACHER_COOKIE_SECURE:-0}
+    volumes: [vidya-data:/data]
+    # NOTE: the strong code sandbox (bubblewrap) cannot start inside a default Docker container (tested). AIVidya detects that and
+    # uses its restricted mode instead (allow-listed code, CPU/memory limits). See docs/DEPLOY.md before exposing AIVidya to the internet.
+volumes:
+  ollama:
+  vidya-data:

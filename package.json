@@ -1,0 +1,7 @@
+{
+  "name": "vidya",
+  "private": true,
+  "type": "module",
+  "description": "AIVidya AI teacher: front-end tooling (unit tests only; the app itself has no build step)",
+  "scripts": { "test": "node --test tests/js/*.test.mjs", "lint": "node --check frontend/*.js" }
+}

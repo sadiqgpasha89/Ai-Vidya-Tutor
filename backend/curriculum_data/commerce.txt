@@ -1,0 +1,15 @@
+# Commerce (Grades 11-12): Accountancy, Business Studies, Economics
+@grade 11
+Accountancy: Foundations | Introduction to accounting; Theory base and accounting equation; Journal and ledger
+Accountancy: Statements | Trial balance; Depreciation and provisions; Bank reconciliation; Bills of exchange
+Business Studies: Introduction | Nature and purpose of business; Forms of business organisation; Public, private and global enterprises
+Business Studies: Management | Business services and e-business; Social responsibility and ethics; Sources of business finance
+Economics: Microeconomics | Introduction to economics; Consumer's equilibrium and demand; Production and costs; Supply and market equilibrium
+Economics: Statistics | Collection and organisation of data; Measures of central tendency; Index numbers
+@grade 12
+Accountancy: Partnership | Partnership accounts; Admission of a partner; Retirement and death of a partner; Dissolution of a firm
+Accountancy: Company and Analysis | Company accounts: shares and debentures; Financial statements of a company; Ratio analysis; Cash flow statement
+Business Studies: Management | Nature and principles of management; Planning and organising; Staffing, directing and controlling
+Business Studies: Markets | Financial management and markets; Marketing management; Consumer protection
+Economics: Macroeconomics | National income; Money and banking; Income determination; Government budget; Balance of payments
+Economics: Indian Economic Development | The Indian economy in 1950; Economic reforms since 1991; Poverty and human capital; Rural development

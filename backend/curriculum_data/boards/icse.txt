@@ -1,0 +1,26 @@
+# ICSE overlays. '+' adds a chapter (it appears only for ICSE students); '-' hides a base chapter title.
+# Outlines follow the usual ICSE (CISCE) Grade 9-10 structure and have NOT been checked by a teacher; edit freely.
+@subject physics
+@grade 9
++ Measurements and Experimentation | Units and measurement; Vernier callipers and screw gauge; Simple pendulum experiment
++ Heat and Energy | Heat and temperature; Specific heat capacity; Calorimetry basics
++ Machines | Levers and their uses; Pulley systems; Inclined plane
+@grade 10
++ Machines and Moments | Moment of a force; Levers and mechanical advantage; Pulleys and efficiency
++ Calorimetry | Specific heat capacity; Principle of calorimetry; Latent heat
++ Radioactivity | Radioactive radiation; Nuclear fission and fusion; Uses and hazards
+@subject chemistry
+@grade 9
++ The Language of Chemistry | Symbols and formulae; Valency; Chemical equations
++ Atmospheric Pollution | Greenhouse effect; Ozone depletion; Acid rain
+@grade 10
++ Study of Compounds | Hydrogen chloride; Ammonia; Nitric acid; Sulphuric acid
++ Analytical Chemistry | Identification of ions using NaOH and NH4OH; Flame tests; Tests for gases
++ Mole Concept and Stoichiometry | Gay-Lussac's law and Avogadro's law; Mole concept; Calculations from equations
++ Electrolysis | Electrolytes and non-electrolytes; Electrolysis of molten and aqueous compounds; Electroplating and refining
++ Metallurgy | Occurrence of metals; Extraction of aluminium; Extraction of iron
+@subject biology
+@grade 10
++ The Circulatory System | Blood and its components; The heart; Blood vessels and circulation
++ The Excretory System | Structure of the kidney; Urine formation; Dialysis
++ The Nervous System and Sense Organs | The nervous system; The eye; The ear

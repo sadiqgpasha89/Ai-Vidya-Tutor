@@ -1,0 +1,81 @@
+@grade 7
+Integers | Negative numbers; Adding and subtracting integers; Multiplying and dividing integers; Properties of integers
+Fractions and Decimals | Multiplying fractions; Dividing fractions; Decimals; Operations on decimals
+Simple Equations | What is an equation; Solving equations; Applications of simple equations
+Lines and Angles | Pairs of angles; Parallel lines and transversals; Angle sum property
+The Triangle and its Properties | Medians and altitudes; Exterior angle property; Pythagoras theorem
+Congruence of Triangles | Congruence of shapes; Criteria: SSS, SAS, ASA, RHS
+Comparing Quantities | Ratios and percentages; Profit and loss; Simple interest
+Rational Numbers | What are rational numbers; Rational numbers on the number line; Operations
+Perimeter and Area | Area of parallelogram and triangle; Circles: circumference and area
+Algebraic Expressions | Terms and coefficients; Adding and subtracting expressions; Using expressions
+Exponents and Powers | Laws of exponents; Standard form of large numbers
+@grade 8
+Rational Numbers | Properties of rational numbers; Rational numbers between two numbers
+Linear Equations in One Variable | Solving equations with variables on both sides; Reducing equations to simple form; Word problems
+Understanding Quadrilaterals | Types of quadrilaterals; Angle sum property; Properties of parallelograms
+Data Handling | Grouping data; Circle graphs (pie charts); Probability
+Squares and Square Roots | Squares and patterns; Finding square roots; Pythagorean triplets
+Cubes and Cube Roots | Cubes; Cube roots
+Comparing Quantities | Discount and tax; Compound interest; Growth and depreciation
+Algebraic Expressions and Identities | Multiplying expressions; Standard identities
+Mensuration | Area of trapezium and polygons; Surface area of solids; Volume
+Exponents and Powers | Negative exponents; Laws of exponents; Scientific notation
+Direct and Inverse Proportion | Direct proportion; Inverse proportion
+Factorisation | Factors of algebraic expressions; Factorising using identities; Division of expressions
+@grade 9
+Number Systems | Rational and irrational numbers; Real numbers on the number line; Laws of exponents for real numbers; Rationalisation
+Polynomials | Polynomials in one variable; Zeroes of a polynomial; Remainder and factor theorems; Algebraic identities
+Coordinate Geometry | The Cartesian plane; Plotting a point
+Linear Equations in Two Variables | Linear equations and solutions; Graph of a linear equation
+Introduction to Euclid's Geometry | Euclid's definitions and axioms; Euclid's postulates
+Lines and Angles | Basic terms and angle pairs; Parallel lines and a transversal; Angle sum property of a triangle
+Triangles | Congruence of triangles; Properties of isosceles triangles; Inequalities in a triangle
+Quadrilaterals | Parallelogram properties; Mid-point theorem
+Circles | Chords and the centre; Angle subtended by an arc; Cyclic quadrilaterals
+Heron's Formula | Area of a triangle by Heron's formula; Area of quadrilaterals
+Surface Areas and Volumes | Cuboids and cubes; Right circular cylinders and cones; Spheres
+Statistics | Collecting and presenting data; Graphical representation; Mean, median and mode
+@grade 10
+Real Numbers | Euclid's division lemma; Fundamental theorem of arithmetic; Irrational numbers; Decimal expansions
+Polynomials | Geometrical meaning of zeroes; Relationship between zeroes and coefficients; Division algorithm
+Pair of Linear Equations in Two Variables | Graphical method; Substitution and elimination; Cross-multiplication; Equations reducible to linear form
+Quadratic Equations | Standard form; Factorisation method; Quadratic formula; Nature of roots
+Arithmetic Progressions | What is an AP; nth term; Sum of n terms
+Triangles | Similar figures; Criteria for similarity; Areas of similar triangles; Pythagoras theorem
+Coordinate Geometry | Distance formula; Section formula; Area of a triangle
+Introduction to Trigonometry | Trigonometric ratios; Ratios of specific angles; Trigonometric identities
+Some Applications of Trigonometry | Heights and distances; Angles of elevation and depression
+Circles | Tangent to a circle; Number of tangents from a point
+Areas Related to Circles | Perimeter and area; Sector and segment; Combinations of figures
+Surface Areas and Volumes | Combination of solids; Conversion of solids; Frustum of a cone
+Statistics | Mean of grouped data; Mode of grouped data; Median and ogives
+Probability | Classical probability; Equally likely outcomes; Complementary events
+@grade 11
+Sets | Sets and their representations; Subsets and Venn diagrams; Operations on sets
+Relations and Functions | Cartesian product and relations; Functions; Domain and range
+Trigonometric Functions | Radian measure; Trigonometric functions and graphs; Sum and difference formulae; Trigonometric equations
+Complex Numbers and Quadratic Equations | Complex numbers; Argand plane and polar form; Quadratic equations with complex roots
+Linear Inequalities | Inequalities in one variable; Graphical solutions of inequalities
+Permutations and Combinations | Fundamental principle of counting; Permutations; Combinations
+Binomial Theorem | Binomial theorem for positive integers; General and middle terms
+Sequences and Series | Arithmetic progression; Geometric progression; AM-GM inequality; Special series
+Straight Lines | Slope and equations of a line; Distance of a point from a line; Angle between lines
+Conic Sections | Circle; Parabola; Ellipse; Hyperbola
+Introduction to Three Dimensional Geometry | Coordinate axes and planes; Distance and section formula
+Limits and Derivatives | Limits; Derivative from first principles; Algebra of derivatives
+Statistics and Probability | Measures of dispersion; Probability: events and axioms
+@grade 12
+Relations and Functions | Types of relations; Types of functions; Composition and invertible functions
+Inverse Trigonometric Functions | Definition, domain and range; Properties
+Matrices | Types of matrices; Operations on matrices; Transpose and symmetric matrices
+Determinants | Determinant and its properties; Area of triangle; Adjoint and inverse; Solving linear equations
+Continuity and Differentiability | Continuity; Differentiability; Chain rule and implicit differentiation; Logarithmic differentiation; Mean value theorems
+Applications of Derivatives | Rate of change; Increasing and decreasing functions; Tangents and normals; Maxima and minima
+Integrals | Integration as inverse of differentiation; Integration by substitution; Partial fractions and by parts; Definite integrals
+Applications of Integrals | Area under curves; Area between curves
+Differential Equations | Order and degree; Variable separable; Linear differential equations
+Vector Algebra | Vectors and operations; Dot product; Cross product
+Three Dimensional Geometry | Direction cosines and ratios; Equation of a line; Equation of a plane; Angles and distances
+Linear Programming | Formulating problems; Graphical method
+Probability | Conditional probability; Bayes' theorem; Random variables and distribution; Bernoulli trials and binomial distribution
