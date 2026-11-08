@@ -1,0 +1,316 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AIVidya — a voice-enabled AI teacher for Grades 7–12</title>
+<meta name="description" content="AIVidya is an open-source, voice-enabled AI teacher for Grades 7–12 that runs on your own computer with local models. Lessons, doubts, quizzes and progress tracking in 20 languages.">
+<meta property="og:title" content="AIVidya — a voice-enabled AI teacher for Grades 7–12">
+<meta property="og:description" content="Open-source AI tutor: lessons by voice, doubts by text or photo, quizzes, revision and teacher tools in 20 languages. Runs locally, no API key needed.">
+<meta property="og:type" content="website">
+<style>
+  :root {
+    --bg: #fbfaf7;
+    --surface: #ffffff;
+    --surface-2: #f3f1ea;
+    --text: #1d2433;
+    --muted: #5a6478;
+    --border: #e4e0d4;
+    --accent: #2f5bea;
+    --accent-ink: #ffffff;
+    --accent-soft: #e8edff;
+    --warm: #b4570a;
+    --warm-soft: #fdf0e0;
+    --radius: 14px;
+    --max: 1080px;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #11141c;
+      --surface: #181c27;
+      --surface-2: #1f2432;
+      --text: #e8ebf3;
+      --muted: #9aa3b8;
+      --border: #2a3042;
+      --accent: #7c9bff;
+      --accent-ink: #0d1020;
+      --accent-soft: #212a4d;
+      --warm: #f0a45d;
+      --warm-soft: #33261a;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font: 17px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans", "Noto Sans Devanagari", sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  a { color: var(--accent); }
+  a:focus-visible, button:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; border-radius: 6px; }
+  .wrap { max-width: var(--max); margin: 0 auto; padding: 0 20px; }
+  h1, h2, h3 { line-height: 1.2; margin: 0; letter-spacing: -0.01em; }
+  h2 { font-size: clamp(1.6rem, 3vw, 2.1rem); margin-bottom: 12px; }
+  h3 { font-size: 1.1rem; margin-bottom: 6px; }
+  p { margin: 0 0 14px; }
+  section { padding: 64px 0; }
+  .lede { color: var(--muted); font-size: 1.1rem; max-width: 62ch; }
+  .eyebrow { font-size: .8rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--accent); margin-bottom: 10px; }
+
+  /* nav */
+  header.top { border-bottom: 1px solid var(--border); background: var(--bg); position: sticky; top: 0; z-index: 10; }
+  header.top .wrap { display: flex; align-items: center; justify-content: space-between; gap: 16px; height: 60px; }
+  .brand { font-weight: 800; font-size: 1.15rem; text-decoration: none; color: var(--text); display: flex; align-items: center; gap: 10px; }
+  .logo { width: 30px; height: 30px; border-radius: 9px; background: var(--accent); color: var(--accent-ink); display: grid; place-items: center; font-weight: 800; font-size: 1rem; }
+  nav a { color: var(--muted); text-decoration: none; margin-left: 20px; font-size: .95rem; }
+  nav a:hover { color: var(--text); }
+  @media (max-width: 720px) { nav a.hide-sm { display: none; } }
+
+  /* hero */
+  .hero { padding: 72px 0 56px; }
+  .hero h1 { font-size: clamp(2.1rem, 5.5vw, 3.4rem); max-width: 18ch; }
+  .hero h1 em { font-style: normal; color: var(--accent); }
+  .hero .lede { margin-top: 18px; }
+  .cta { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 28px; }
+  .btn { display: inline-block; padding: 12px 20px; border-radius: 10px; font-weight: 600; text-decoration: none; border: 1px solid var(--border); color: var(--text); background: var(--surface); }
+  .btn.primary { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); }
+  .btn:hover { filter: brightness(1.05); }
+  .chips { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 28px; }
+  .chip { font-size: .85rem; padding: 4px 12px; border-radius: 999px; background: var(--surface-2); border: 1px solid var(--border); color: var(--muted); }
+
+  /* cards */
+  .grid { display: grid; gap: 16px; margin-top: 28px; }
+  .grid.c2 { grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); }
+  .grid.c3 { grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); }
+  .grid.c4 { grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); }
+  .card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 20px; }
+  .card p { color: var(--muted); font-size: .96rem; margin: 0; }
+  .card .tag { display: inline-block; font-size: .75rem; font-weight: 700; padding: 2px 10px; border-radius: 999px; background: var(--accent-soft); color: var(--accent); margin-bottom: 10px; }
+  .alt { background: var(--surface-2); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); }
+
+  /* problem */
+  .problem { display: grid; gap: 28px; grid-template-columns: 1fr 1fr; align-items: start; margin-top: 8px; }
+  @media (max-width: 800px) { .problem { grid-template-columns: 1fr; } }
+  .quote { border-left: 4px solid var(--accent); padding: 4px 0 4px 18px; font-size: 1.15rem; }
+  .ex { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 20px; }
+  .ex .q { background: var(--accent-soft); color: var(--text); border-radius: 12px 12px 12px 2px; padding: 10px 14px; margin-bottom: 10px; font-size: .96rem; }
+  .ex .a { background: var(--surface-2); border-radius: 12px 12px 2px 12px; padding: 10px 14px; margin-left: 24px; font-size: .96rem; }
+  .ex .cap { font-size: .8rem; color: var(--muted); margin: 12px 0 0; }
+
+  /* lesson parts */
+  ol.parts { list-style: none; counter-reset: p; margin: 28px 0 0; padding: 0; display: grid; gap: 10px; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); }
+  ol.parts li { counter-increment: p; background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 12px 14px 12px 52px; position: relative; font-size: .96rem; }
+  ol.parts li::before { content: counter(p); position: absolute; left: 14px; top: 11px; width: 26px; height: 26px; border-radius: 50%; background: var(--accent-soft); color: var(--accent); font-weight: 700; font-size: .85rem; display: grid; place-items: center; }
+
+  /* languages */
+  .langs { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+  .langs span { padding: 5px 12px; border-radius: 8px; background: var(--surface); border: 1px solid var(--border); font-size: .93rem; }
+  .langs.in span { background: var(--accent-soft); border-color: transparent; }
+  h3.sub { margin-top: 22px; font-size: .95rem; color: var(--muted); font-weight: 600; }
+
+  /* code */
+  pre { background: #0f1420; color: #e6e9f2; padding: 18px 20px; border-radius: var(--radius); overflow-x: auto; font-size: .88rem; line-height: 1.55; margin: 18px 0 0; }
+  code { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+  p code, li code { background: var(--surface-2); border: 1px solid var(--border); padding: 1px 6px; border-radius: 6px; font-size: .88em; }
+  .c { color: #8a94ad; }
+
+  /* honesty */
+  .note { background: var(--warm-soft); border: 1px solid var(--warm); border-radius: var(--radius); padding: 20px 22px; }
+  .note h3 { color: var(--warm); }
+  .note p:last-child { margin-bottom: 0; }
+
+  footer { border-top: 1px solid var(--border); padding: 32px 0 48px; color: var(--muted); font-size: .92rem; }
+  footer .wrap { display: flex; flex-wrap: wrap; gap: 12px 28px; justify-content: space-between; }
+  footer a { color: var(--muted); }
+
+  .sr { position: absolute; left: -9999px; }
+  .skip:focus { left: 12px; top: 8px; background: var(--accent); color: var(--accent-ink); padding: 8px 12px; border-radius: 8px; z-index: 20; }
+  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+</style>
+</head>
+<body>
+<a class="sr skip" href="#main">Skip to content</a>
+
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="#top"><span class="logo" aria-hidden="true">AV</span> AIVidya</a>
+    <nav aria-label="Main">
+      <a class="hide-sm" href="#usecase">Use case</a>
+      <a class="hide-sm" href="#roles">Who it's for</a>
+      <a class="hide-sm" href="#features">Features</a>
+      <a href="#start">Quick start</a>
+      <a href="https://github.com/sadiqgpasha89/Ai-Vidya-Tutor">GitHub</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+<!-- HERO -->
+<section class="hero" id="top">
+  <div class="wrap">
+    <div class="eyebrow">Open-source AI teacher · Grades 7–12</div>
+    <h1>A patient teacher that <em>talks</em>, in your language.</h1>
+    <p class="lede">
+      AIVidya teaches Physics, Chemistry, Biology, Maths, Computers, English, Social Science and Commerce in simple words, by voice and transcript.
+      It runs on your own computer with local models, so lessons and chats stay with you, and no API key is needed.
+    </p>
+    <div class="cta">
+      <a class="btn primary" href="#start">Run it yourself</a>
+      <a class="btn" href="https://github.com/sadiqgpasha89/Ai-Vidya-Tutor">View on GitHub</a>
+      <a class="btn" href="#usecase">See the use case</a>
+    </div>
+    <div class="chips" aria-label="Highlights">
+      <span class="chip">20 languages</span>
+      <span class="chip">NCERT / CBSE-style, ICSE overlay</span>
+      <span class="chip">Local models via Ollama (Gemma 4, gpt-oss)</span>
+      <span class="chip">Or Claude</span>
+      <span class="chip">Installable PWA</span>
+      <span class="chip">Accessibility-checked (axe)</span>
+    </div>
+  </div>
+</section>
+
+<!-- USE CASE -->
+<section class="alt" id="usecase">
+  <div class="wrap">
+    <div class="eyebrow">The use case</div>
+    <h2>Every student gets a tutor who never runs out of time.</h2>
+    <p class="lede">
+      A class of 40 has one teacher. A student who is stuck at 9 pm on a chemistry equation, or who learns best in Telugu or Tamil, often has nobody to ask.
+      AIVidya gives them a tutor they can talk to, while keeping teachers and parents in the loop.
+    </p>
+
+    <div class="problem">
+      <div>
+        <p class="quote">“Explain why the balanced equation for KMnO₄ + HCl needs those numbers, in Hindi, and then quiz me.”</p>
+        <p>Instead of searching through videos and guides, a student picks a topic, listens to a structured lesson, asks doubts by voice, text or a photo of their homework, and then checks what they have actually understood.</p>
+        <p>Instead of guessing who is falling behind, a teacher sees mastery heat-maps by chapter, reviews and corrects what the AI wrote, and assigns practice.</p>
+        <p>Instead of sending children's data to a cloud service, a school or family can run the whole thing on one machine.</p>
+      </div>
+      <div class="ex" aria-label="Example conversation">
+        <div class="q">I got 48 m for this projectile problem. Can you check my working?</div>
+        <div class="a">Let's go line by line. Your first step is right. In step 2 you used the full velocity instead of the horizontal part… try it again and I'll check.</div>
+        <p class="cap">Illustrative exchange showing the tutor's step-by-step "check my working" style, not a recording.</p>
+      </div>
+    </div>
+
+    <div class="grid c3">
+      <div class="card"><h3>Learn</h3><p>Listen to a lesson read sentence by sentence with the words highlighted, or read the transcript. Switch to Quick mode or a one-page cheat sheet when time is short.</p></div>
+      <div class="card"><h3>Ask</h3><p>Ask doubts by voice, text or a photo. The tutor stays on topic, shows formulas, graphs and diagrams on a board, and cites textbook passages you upload.</p></div>
+      <div class="card"><h3>Practise &amp; revise</h3><p>Adaptive quizzes, step-checked practice problems, flashcards on a schedule, timed tests and CBSE-pattern papers, plus a Daily 5 to keep a streak.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ROLES -->
+<section id="roles">
+  <div class="wrap">
+    <div class="eyebrow">Who it's for</div>
+    <h2>Four kinds of people, one app.</h2>
+    <div class="grid c4">
+      <div class="card"><span class="tag">Students</span><h3>Learn at your own pace</h3><p>Browse topics, listen, ask, quiz yourself, take timed tests, revise on a schedule and earn XP. Add any topic you are curious about and get a private lesson.</p></div>
+      <div class="card"><span class="tag">Parents</span><h3>Stay informed</h3><p>Approve your child's account and see weekly progress and per-subject reports. Parents see progress, not chat transcripts.</p></div>
+      <div class="card"><span class="tag">Teachers</span><h3>Teach with the AI, not behind it</h3><p>Run classes, assign lessons and practice, answer the doubt inbox, make printable worksheets with answer keys, and approve, edit or reject AI lessons.</p></div>
+      <div class="card"><span class="tag">Admins</span><h3>Run the school</h3><p>Manage people, schools, curriculum and every lesson, send announcements, and keep an eye on backups and system health from a dedicated console.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- LESSON -->
+<section class="alt" id="lesson">
+  <div class="wrap">
+    <div class="eyebrow">How a lesson works</div>
+    <h2>Twelve parts, from “why does this matter?” to “can I use it?”.</h2>
+    <p class="lede">Each lesson is written one section at a time and cached, which keeps small local models reliable. Facts are automatically checked and the whole lesson is labelled as AI-written until a teacher reviews it.</p>
+    <ol class="parts">
+      <li>Why it matters</li>
+      <li>The idea</li>
+      <li>How it works</li>
+      <li>Worked example</li>
+      <li>Edge cases</li>
+      <li>Advantages &amp; limits</li>
+      <li>Where it is used</li>
+      <li>Common mistakes</li>
+      <li>Try it</li>
+      <li>Exam corner</li>
+      <li>Connections</li>
+      <li>Recap</li>
+    </ol>
+  </div>
+</section>
+
+<!-- FEATURES -->
+<section id="features">
+  <div class="wrap">
+    <div class="eyebrow">Features</div>
+    <h2>What's inside.</h2>
+    <div class="grid c3">
+      <div class="card"><h3>Voice tutor</h3><p>Streaming answers read aloud, hands-free mode, barge-in, and private speech recognition with Whisper plus Piper voices on your own server.</p></div>
+      <div class="card"><h3>Learner model</h3><p>Bayesian knowledge tracing with a forgetting curve decides what to revise next, with a daily plan and exam countdown.</p></div>
+      <div class="card"><h3>Tools for science &amp; maths</h3><p>12 simulations, periodic table, equation balancer, 3D molecules, SymPy algebra, unit conversion and a sandboxed Python/HTML runner.</p></div>
+      <div class="card"><h3>Textbook grounding</h3><p>Upload your licensed textbooks. Lessons and chat cite the passages they used. No copyrighted text is bundled.</p></div>
+      <div class="card"><h3>Safe by design</h3><p>Parental consent under 18, distress detection with help-line numbers, rate limits, strict CSP, a no-network code sandbox, and data export and erasure.</p></div>
+      <div class="card"><h3>Accessible</h3><p>Light, dark and high-contrast themes, text size, dyslexia-friendly font and line spacing, with axe-core checks on key pages.</p></div>
+    </div>
+
+    <h2 style="margin-top:56px">20 languages, one button.</h2>
+    <p class="lede">Choose a language in the top-right corner and the interface, the lessons and answers, and the voice all change together.</p>
+    <h3 class="sub">Ten most-spoken in India</h3>
+    <div class="langs in">
+      <span>Hindi</span><span>Bengali</span><span>Marathi</span><span>Telugu</span><span>Tamil</span><span>Gujarati</span><span>Urdu</span><span>Kannada</span><span>Odia</span><span>Malayalam</span>
+    </div>
+    <h3 class="sub">Ten international</h3>
+    <div class="langs">
+      <span>English</span><span>Chinese</span><span>Spanish</span><span>French</span><span>Arabic</span><span>Portuguese</span><span>Russian</span><span>Indonesian</span><span>German</span><span>Japanese</span>
+    </div>
+  </div>
+</section>
+
+<!-- HONESTY -->
+<section class="alt" id="status">
+  <div class="wrap">
+    <div class="note">
+      <h3>Please read before putting this in front of children</h3>
+      <p>
+        The AI still makes mistakes, including wrong reasoning and weaker lessons in the less common languages. Treat every lesson as a draft until a teacher has reviewed it.
+        Real speakers, microphones and phones, the Claude API path and e-mail/push delivery have not been verified end to end, and the privacy notice and terms are templates for a lawyer to finish.
+      </p>
+      <p><a href="https://github.com/sadiqgpasha89/Ai-Vidya-Tutor/blob/main/FEATURE_STATUS.md">FEATURE_STATUS.md</a> lists exactly what is done, partly done or limited.</p>
+    </div>
+  </div>
+</section>
+
+<!-- QUICK START -->
+<section id="start">
+  <div class="wrap">
+    <div class="eyebrow">Quick start</div>
+    <h2>Run it on your own machine.</h2>
+    <p class="lede">You need Python and <a href="https://ollama.com">Ollama</a>. A GPU helps; on an RTX 4090 a lesson starts showing in about 10 seconds.</p>
+<pre><code>git clone https://github.com/sadiqgpasha89/Ai-Vidya-Tutor.git
+cd Ai-Vidya-Tutor
+
+./install.sh              <span class="c"># Python env, offline libraries, Ollama models, first admin</span>
+./scripts/pull_models.sh  <span class="c"># gemma4:e4b, gpt-oss:20b, translategemma:4b, nomic-embed-text</span>
+./run.sh                  <span class="c"># open http://127.0.0.1:8000</span></code></pre>
+    <p style="margin-top:18px">Just trying it? <code>TEACHER_MOCK=1 ./run.sh</code> serves sample content with no model, and <code>TEACHER_AUTH=off ./run.sh</code> skips sign-in. Prefer containers? <code>docker compose up -d --build</code> (see the <a href="https://github.com/sadiqgpasha89/Ai-Vidya-Tutor/blob/main/docs/DEPLOY.md">deployment guide</a>). Use Chrome or Edge for browser voice input.</p>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div>AIVidya · built for Grades 7–12</div>
+    <div>
+      <a href="https://github.com/sadiqgpasha89/Ai-Vidya-Tutor">Source on GitHub</a> ·
+      <a href="https://github.com/sadiqgpasha89/Ai-Vidya-Tutor/blob/main/README.md">README</a> ·
+      <a href="https://github.com/sadiqgpasha89/Ai-Vidya-Tutor/blob/main/docs/DEPLOY.md">Deploy guide</a> ·
+      <a href="https://github.com/sadiqgpasha89/Ai-Vidya-Tutor/blob/main/FEATURE_STATUS.md">Feature status</a>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

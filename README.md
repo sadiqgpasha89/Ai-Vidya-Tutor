@@ -1,5 +1,7 @@
 # AIVidya — a voice-enabled AI teacher for Grades 7–12
 
+🌐 **Project page (use case, features and quick start): [https://sadiqgpasha89.github.io/Ai-Vidya-Tutor/](https://sadiqgpasha89.github.io/Ai-Vidya-Tutor/)**
+
 AIVidya teaches **Physics, Chemistry, Biology, Maths, Computers, English, Social Science and Commerce** (NCERT/CBSE-style, with an ICSE overlay)
 in simple words, by **voice and transcript**, in **20 languages** chosen from the button in the top-right corner: the ten most spoken in India (Hindi, Bengali, Marathi, Telugu, Tamil, Gujarati, Urdu, Kannada, Odia, Malayalam) and ten international ones (English, Chinese, Spanish, French, Arabic, Portuguese, Russian, Indonesian, German, Japanese). One choice changes the app, the lessons and answers, and the voice.
 It runs on **your own computer with local models (Gemma 4 and gpt-oss via Ollama)** — no API key needed — or on Claude.
